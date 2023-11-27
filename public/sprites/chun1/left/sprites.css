@@ -1,0 +1,39 @@
+[data-sevenup^='left/'] {
+	background-image: url('./sprites.png');
+	background-size: 512px 256px;
+}
+[data-sevenup='left/chunlee_a_01.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: 0px 0px;
+}
+[data-sevenup='left/chunlee_a_02.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: -102px 0px;
+}
+[data-sevenup='left/chunlee_a_03.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: -204px 0px;
+}
+[data-sevenup='left/chunlee_a_04.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: 0px -106px;
+}
+[data-sevenup='left/chunlee_a_05.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: -102px -106px;
+}
+[data-sevenup='left/chunlee_a_06.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: -204px -106px;
+}
+[data-sevenup='left/chunlee_a_07.png'] {
+	width: 102px;
+	height: 106px;
+	background-position: -306px 0px;
+}

@@ -1,0 +1,29 @@
+[data-sevenup^='left/'] {
+	background-image: url('./sprites.png');
+	background-size: 512px 256px;
+}
+[data-sevenup='left/blank_al_1.png'] {
+	width: 142px;
+	height: 112px;
+	background-position: 0px 0px;
+}
+[data-sevenup='left/blank_al_2.png'] {
+	width: 142px;
+	height: 112px;
+	background-position: -142px 0px;
+}
+[data-sevenup='left/blank_al_3.png'] {
+	width: 142px;
+	height: 112px;
+	background-position: 0px -112px;
+}
+[data-sevenup='left/blank_al_4.png'] {
+	width: 142px;
+	height: 112px;
+	background-position: -142px -112px;
+}
+[data-sevenup='left/blank_al_5.png'] {
+	width: 142px;
+	height: 112px;
+	background-position: -284px 0px;
+}

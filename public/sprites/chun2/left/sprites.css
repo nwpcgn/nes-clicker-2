@@ -1,0 +1,194 @@
+[data-sevenup^='left/'] {
+	background-image: url('./sprites.png');
+	background-size: 1024px 1024px;
+}
+[data-sevenup='left/a_xx_00.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: 0px 0px;
+}
+[data-sevenup='left/a_xx_01.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -150px 0px;
+}
+[data-sevenup='left/a_xx_02.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: 0px -130px;
+}
+[data-sevenup='left/a_xx_03.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -150px -130px;
+}
+[data-sevenup='left/a_xx_04.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -300px 0px;
+}
+[data-sevenup='left/a_xx_05.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -300px -130px;
+}
+[data-sevenup='left/a_xx_06.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: 0px -260px;
+}
+[data-sevenup='left/a_xx_07.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -150px -260px;
+}
+[data-sevenup='left/a_xx_08.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -300px -260px;
+}
+[data-sevenup='left/a_xx_09.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -450px 0px;
+}
+[data-sevenup='left/a_xx_10.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -450px -130px;
+}
+[data-sevenup='left/a_xx_11.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -450px -260px;
+}
+[data-sevenup='left/a_xx_12.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: 0px -390px;
+}
+[data-sevenup='left/a_xx_13.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -150px -390px;
+}
+[data-sevenup='left/a_xx_14.png'] {
+	width: 150px;
+	height: 130px;
+	background-position: -300px -390px;
+}
+[data-sevenup='left/sa_1_0.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -450px -390px;
+}
+[data-sevenup='left/sa_1_1.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -600px 0px;
+}
+[data-sevenup='left/sa_1_2.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -600px -120px;
+}
+[data-sevenup='left/sa_1_3.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -600px -240px;
+}
+[data-sevenup='left/sa_1_4.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -600px -360px;
+}
+[data-sevenup='left/sa_2_0.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: 0px -520px;
+}
+[data-sevenup='left/sa_2_1.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -120px -520px;
+}
+[data-sevenup='left/sa_2_2.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -240px -520px;
+}
+[data-sevenup='left/sa_2_3.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -360px -520px;
+}
+[data-sevenup='left/sa_2_4.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -480px -520px;
+}
+[data-sevenup='left/sa_2_5.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -600px -520px;
+}
+[data-sevenup='left/sa_3_0.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -720px 0px;
+}
+[data-sevenup='left/sa_3_1.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -720px -120px;
+}
+[data-sevenup='left/sa_3_2.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -720px -240px;
+}
+[data-sevenup='left/sa_3_3.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -720px -360px;
+}
+[data-sevenup='left/sa_3_4.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -720px -480px;
+}
+[data-sevenup='left/sa_3_5.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: 0px -640px;
+}
+[data-sevenup='left/sa_4_0.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -120px -640px;
+}
+[data-sevenup='left/sa_4_1.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -240px -640px;
+}
+[data-sevenup='left/sa_4_2.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -360px -640px;
+}
+[data-sevenup='left/sa_4_3.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -480px -640px;
+}
+[data-sevenup='left/sa_4_4.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -600px -640px;
+}
+[data-sevenup='left/sa_4_5.png'] {
+	width: 120px;
+	height: 120px;
+	background-position: -720px -640px;
+}

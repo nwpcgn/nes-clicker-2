@@ -1,0 +1,39 @@
+[data-sevenup^='right/'] {
+	background-image: url('./sprites.png');
+	background-size: 512px 256px;
+}
+[data-sevenup='right/dahl_b1.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: 0px 0px;
+}
+[data-sevenup='right/dahl_b2.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: -68px 0px;
+}
+[data-sevenup='right/dahl_b3.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: -136px 0px;
+}
+[data-sevenup='right/dahl_b4.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: -204px 0px;
+}
+[data-sevenup='right/dahl_b5.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: 0px -126px;
+}
+[data-sevenup='right/dahl_b6.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: -68px -126px;
+}
+[data-sevenup='right/dahl_b7.png'] {
+	width: 68px;
+	height: 126px;
+	background-position: -136px -126px;
+}

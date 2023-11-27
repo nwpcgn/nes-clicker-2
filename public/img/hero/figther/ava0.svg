@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="200px" height="200px" viewBox="0 0 200 200" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.5" y1="1" x2="0.5" y2="0" id="gradient_1">
+      <stop offset="0%" stop-color="#E6864E" />
+      <stop offset="100%" stop-color="#E67240" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.5" y1="1" x2="0.5" y2="0" id="gradient_2">
+      <stop offset="0%" stop-color="#FFC9B3" />
+      <stop offset="100%" stop-color="#FFD2C2" />
+    </linearGradient>
+    <linearGradient gradientUnits="objectBoundingBox" x1="0.5" y1="0" x2="0.5" y2="1" id="gradient_3">
+      <stop offset="0%" stop-color="#FFD4B3" />
+      <stop offset="100%" stop-color="#FFDCC2" />
+    </linearGradient>
+    <path d="M200 0L200 0L200 200L0 200L0 0L200 0Z" id="path_1" />
+    <clipPath id="clip_1">
+      <use xlink:href="#path_1" clip-rule="evenodd" fill-rule="evenodd" />
+    </clipPath>
+  </defs>
+  <g id="User 01a" clip-path="url(#clip_1)">
+    <path d="M200 0L200 0L200 200L0 200L0 0L200 0Z" id="User-01a" fill="none" stroke="none" />
+    <g id="User-01a" transform="translate(30.217817 25.725586)">
+      <path d="M118.115 80.6078C123.523 62.6471 126.857 31.9411 104.115 10.9411C86.7355 -5.10825 39.7821 -6.72558 23.4488 28.2744C20.7221 34.1171 24.4488 43.2744 31.7821 42.9411C34.1321 42.8324 35.7525 48.8848 37.1742 54.1952C37.4961 55.3975 37.8078 56.5617 38.1155 57.6078C35.7821 80.6078 14.9942 81.0324 4.44882 98.6077C-8.55118 120.274 7.44882 152.274 45.7821 152.274C84.1155 152.274 106.09 120.544 118.115 80.6078L118.115 80.6078Z" id="Combined-Shape" fill="url(#gradient_1)" fill-rule="evenodd" stroke="none" />
+      <path d="M131.115 132.941C136.005 142.274 138.448 176.274 138.448 176.274L1.11549 176.274C1.11549 176.274 3.56016 142.274 8.44882 132.941C15.7822 118.941 69.7822 100.941 69.7822 100.941C69.7822 100.941 123.783 118.941 131.115 132.941L131.115 132.941Z" id="Rectangle" fill="url(#gradient_2)" fill-rule="evenodd" stroke="none" />
+      <path d="M85.7822 108.941C85.7822 108.941 77.2715 113.608 69.4422 113.608C61.6129 113.608 53.7822 108.941 53.7822 108.941L53.7822 94.2744C52.0979 94.5406 50.3916 94.642 48.6875 94.577C32.6955 94.5757 26.6655 71.2818 29.7822 42.9411C31.7822 42.9411 36.4488 42.9411 43.1155 33.6077C41.4489 46.6077 60.7822 44.6077 68.1155 34.2744C64.4489 46.6077 74.1155 54.9411 82.4489 49.941C98.7895 40.1364 102.463 70.0251 85.7822 70.2744L85.7822 108.941L85.7822 108.941Z" id="Mask" fill="url(#gradient_3)" fill-rule="evenodd" stroke="none" />
+      <path d="M53.7822 94.2744C62.0521 92.7519 69.9653 89.6996 77.1155 85.2744C77.1155 85.2744 68.7822 99.6077 53.7822 99.6077L53.7822 94.2744L53.7822 94.2744Z" id="Path-2" fill="#FFB597" fill-rule="evenodd" stroke="none" />
+      <path d="M69.8041 112.924C74.6221 112.706 85.7821 110.346 85.7821 105.248L85.7821 100.941C87.0048 100.941 90.5055 103.829 92.3061 106.274C99.4235 115.941 91.5288 124.608 85.0901 124.608C76.9661 124.608 71.5821 117.82 69.7821 114.554C67.9821 117.821 62.5981 124.608 54.4741 124.608C48.0355 124.608 40.1408 115.941 47.2581 106.274C49.0588 103.829 52.5594 100.941 53.7821 100.941L53.7821 105.248C53.7821 110.346 65.2435 112.706 69.8041 112.924L69.8041 112.924Z" id="Combined-Shape" fill="#FFFFFF" fill-rule="evenodd" stroke="none" />
+    </g>
+  </g>
+</svg>
