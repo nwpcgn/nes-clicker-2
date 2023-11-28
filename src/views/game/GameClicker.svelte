@@ -31,7 +31,7 @@
 
 				<nav>
 					<button class="nes-btn is-primary" on:click={handleClick}
-						>Click + {formatNumber(clicker.inc.click)}</button>
+						> Generate </button>
 				</nav>
 			</header>
 		</NesContainer>

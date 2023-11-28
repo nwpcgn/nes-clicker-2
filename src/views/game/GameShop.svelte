@@ -23,7 +23,7 @@
 				}
 
 				clicker.inc[obj.inc] += obj.eff * obj.boost
-				obj.eff++
+				obj.eff += 1
 				obj.own += 1
 				clicker.total -= obj.cost
 				if (slug === 'r3') {
@@ -31,7 +31,7 @@
 				} else {
 					obj.cost = obj.cost * 2
 				}
-
+				
 				clicker.upgrades[slug] = obj
 				console.log(clicker.upgrades[slug])
 			} else {
@@ -68,10 +68,19 @@
 	<NesPage middle>
 		<NesContainer>
 			<header class="nes-header">
-				<h1 class="text-4xl font-medium">{formatMoney(clicker.total)}</h1>
-
+				<div class="nes-ammount nes-center">
+					{formatMoney(clicker.total)}
+				</div>
+				<nav>
+					<span class="nes-badge">
+						<span class="is-primary">{formatNumber(clicker.inc.click)}</span>
+					</span>
+					<span class="nes-badge">
+						<span class="is-dark">{formatNumber(clicker.inc.auto)}</span>
+					</span>
+				</nav>
 				<div class="flex flex-wrap justify-center gap-2">
-					{#each Object.entries(clicker.upgrades) as [key, { name, own, eff, cost, inc }]}
+					{#each Object.entries(clicker.upgrades) as [key, { name, own, eff, cost, inc, boost }]}
 						<article class="flex flex-col gap-2 shadow">
 							<div class="flex items-center justify-between gap-4">
 								<span>{name}</span>
@@ -81,7 +90,7 @@
 								{formatMoney(cost)}
 							</div>
 							<div class="nes-text is-primary single-line">
-								+{formatNumber(eff)}
+								+{formatNumber(eff * boost)}
 								{inc}
 							</div>
 							<button on:click={() => upgrade(key)} class="nes-btn is-primary"
