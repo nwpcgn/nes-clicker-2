@@ -1,0 +1,58 @@
+.nes-app-bar {
+	box-shadow: 3px 3px 10px 3px #dddddd;
+}
+
+.nes-page {
+	display: flex;
+	flex-direction: column;
+	gap: var(--nes-page-gap);
+	margin-left: auto;
+	margin-right: auto;
+	max-width: var(--nes-page-width);
+	padding: var(--nes-page-padding);
+	width: 100%;
+
+	&.small {
+		--nes-page-width: var(--nes-page-width-sm);
+	}
+	&.middle {
+		margin-top: auto;
+		margin-bottom: auto;
+	}
+
+	&.blank {
+		padding: 0 !important;
+	}
+}
+
+.nes-bg-white {
+	background-color: rgba(255, 255, 255, var(--nes-bg-opacity));
+}
+
+.nes-header {
+	display: flex;
+	flex-direction: column;
+	gap: var(--nes-header-gap);
+	padding: var(--nes-header-p);
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		gap: var(--nes-gap);
+	}
+}
+
+.nes-bar {
+	display: flex;
+	align-items: center;
+	gap: var(--nes-gap);
+	&.center {
+		justify-content: center;
+	}
+	&.between {
+		justify-content: space-between;
+	}
+}
+.nes-center {
+	text-align: center;
+}

@@ -1,51 +1,54 @@
 @import '../scss/nes.scss';
-@import 'style.scss';
+@import 'assets/scss/style.scss';
 
 :root {
-	--nes-header-gap: 1rem;
+	--nes-px: 1rem;
+	--nes-py: 1rem;
+	--nes-gap: 1rem;
+	--nes-page-width: 45em;
+	--nes-page-width-sm: 24rem;
+	--nes-header-gap: 2rem;
 	--nes-header-px: 1rem;
-	--nes-header-py: 1rem;
-
+	--nes-header-py: 1.5rem;
+	--nes-bg-opacity: 1;
+	--nes-page-padding: var(--nes-py) var(--nes-px);
+	--nes-page-gap: var(--nes-gap);
 	--nes-header-p: var(--nes-header-py) var(--nes-header-px);
 }
 
-.nes-header {
-	display: flex;
-	flex-direction: column;
-	gap: var(--nes-header-gap);
-	padding: var(--nes-header-p);
+@mixin truncate {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
 }
 
-.flex {
-	display: flex;
+@mixin text-sm {
+	font-size: 0.875rem;
+	line-height: 1.25rem;
 }
-.flex-col {
-	flex-direction: column;
+@mixin text-lg {
+	font-size: 1.125rem;
+	line-height: 1.75rem;
 }
-.flex-1 {
-	flex: 1;
+@mixin text-xl {
+	font-size: 1.25rem;
+	line-height: 1.75rem;
 }
-.justify-center {
-	justify-content: center;
+@mixin text-2xl {
+	font-size: 1.5rem;
+	line-height: 2rem;
 }
-.justify-between {
-	justify-content: space-between;
-}
-.items-center {
-	align-items: center;
-}
-.flex-wrap {
-	flex-wrap: wrap;
+@mixin text-3xl {
+	font-size: 1.875rem;
+	line-height: 2.25rem;
 }
 
-.flex-grow {
-	flex-grow: 1;
+@import 'assets/scss/nes-layer.scss';
+@import 'assets/scss/nes-page.scss';
+
+.nes-ammount {
+	@include text-xl;
+	@include truncate;
 }
-.gap-2 {
-	grid-gap: 0.5rem;
-	gap: 0.5rem;
-}
-.gap-4 {
-	grid-gap: 1rem;
-	gap: 1rem;
-}
+
+@import 'assets/scss/utils.scss';

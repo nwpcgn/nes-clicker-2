@@ -1,0 +1,108 @@
+@charset "utf-8";
+
+/* prettier-ignore */
+@import url(https://fonts.googleapis.com/css?family=Press+Start+2P);
+
+:root {
+	--sky-50: #dff4fd;
+	--sky-100: #b5e4f9;
+	--sky-200: #8bd4f5;
+	--sky-300: #62c5f1;
+	--sky-400: #38b5ed;
+	--sky-500: #0ea5e9;
+	--sky-600: #0c87bf;
+	--sky-700: #096a95;
+	--sky-800: #074c6b;
+	--sky-900: #042e41;
+	--gray-50: #e7eaee;
+	--gray-100: #cdd2da;
+	--gray-200: #b3bbc6;
+	--gray-300: #98a3b3;
+	--gray-400: #7e8c9f;
+	--gray-500: #64748b;
+	--gray-600: #515e71;
+	--gray-700: #3f4957;
+	--gray-800: #2c333d;
+	--gray-900: #191d23;
+	--font-stack: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+		Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	--font-mono: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
+		Bitstream Vera Sans Mono, Courier New, monospace, serif;
+	--font-color: var(--gray-600);
+	--background-color: #ffffff;
+	--page-width: 45em;
+	--page-width-sm: 24rem;
+	--page-padding: 1rem 1rem;
+}
+
+body {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	overflow: hidden;
+	flex-direction: column;
+	color: var(--font-color);
+	background-color: var(--background-color);
+}
+
+.main {
+	flex-grow: 1;
+	position: relative;
+	overflow: hidden;
+}
+
+.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.multi-line {
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3;
+	overflow: hidden;
+}
+
+svg.rpg {
+	display: inline-block;
+	width: 1em;
+	height: 1em;
+	stroke-width: 0;
+	stroke: currentColor;
+	fill: currentColor;
+}
+
+.visually-hidden {
+	width: 1px !important;
+	height: 1px !important;
+	padding: 0 !important;
+	margin: -1px !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	white-space: nowrap !important;
+	border: 0 !important;
+}
+
+.fadeIn {
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+	-webkit-animation-duration: var(--adu, 1s);
+	animation-duration: var(--adu, 1s);
+	-webkit-animation-delay: var(--ade, 0.1s);
+	animation-delay: var(--ade, 0.1s);
+	-webkit-animation-fill-mode: both;
+	animation-fill-mode: both;
+}
+
+.fadeOut {
+	-webkit-animation-name: fadeOut;
+	animation-name: fadeOut;
+	-webkit-animation-duration: var(--adu, 1s);
+	animation-duration: var(--adu, 1s);
+	-webkit-animation-delay: var(--ade, 0s);
+	animation-delay: var(--ade, 0s);
+}
